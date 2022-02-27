@@ -1,4 +1,13 @@
-//1018 - Cédulas
+/**
+ * @file 1018.c
+ * @author your name (you@domain.com)
+ * @brief Cédulas.
+ * @version 0.1
+ * @date 2022-02-27
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include <stdio.h>
 
 int main(){
@@ -31,6 +40,5 @@ int main(){
     printf("%i nota(s) de R$ 2,00\n", notas_2);
     printf("%i nota(s) de R$ 1,00\n", notas_1);
     
-
     return 0;
 }

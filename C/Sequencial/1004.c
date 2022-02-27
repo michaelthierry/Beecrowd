@@ -1,4 +1,13 @@
-//1004 - Produto Simples.
+/**
+ * @file 1004.c
+ * @author your name (you@domain.com)
+ * @brief Produto Simples
+ * @version 0.1
+ * @date 2022-02-27
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include <stdio.h>
 
 int main(){

@@ -1,4 +1,13 @@
-//1005 - Média 1.
+/**
+ * @file 1005.c
+ * @author your name (you@domain.com)
+ * @brief Média 1.
+ * @version 0.1
+ * @date 2022-02-27
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include <stdio.h>
 
 int main(){

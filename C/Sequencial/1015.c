@@ -1,4 +1,13 @@
-//1015 - Distancia Entre Dois Pontos.
+/**
+ * @file 1015.c
+ * @author your name (you@domain.com)
+ * @brief Distancia Entre Dois Pontos.
+ * @version 0.1
+ * @date 2022-02-27
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include <stdio.h>
 #include <math.h>
 

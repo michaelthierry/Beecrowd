@@ -1,4 +1,13 @@
-//1006 - Média 2.
+/**
+ * @file 1006.c
+ * @author your name (you@domain.com)
+ * @brief Média 2
+ * @version 0.1
+ * @date 2022-02-27
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include <stdio.h>
 
 int main (){

@@ -1,4 +1,13 @@
-//1020 - Idade em Dias.
+/**
+ * @file 1020.c
+ * @author your name (you@domain.com)
+ * @brief Idade em Dias.
+ * @version 0.1
+ * @date 2022-02-27
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include <stdio.h>
 
 int main(){

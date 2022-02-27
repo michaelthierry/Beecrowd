@@ -1,4 +1,13 @@
-//1019 - Conversão de Tempo.
+/**
+ * @file 1019.c
+ * @author your name (you@domain.com)
+ * @brief Conversão de Tempo.
+ * @version 0.1
+ * @date 2022-02-27
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include <stdio.h>
 
 int main(){
