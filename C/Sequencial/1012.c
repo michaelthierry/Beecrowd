@@ -14,7 +14,7 @@
 
 int main(){
 
-    double valor_A, valor_B, valo_C;
+    double valor_A, valor_B, valor_C;
     double area_triangulo, area_circulo, area_trapezio, area_quadrado, area_retangulo;
     
     scanf("%lf %lf %lf", &valor_A, &valor_B, &valor_C);
