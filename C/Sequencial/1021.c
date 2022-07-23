@@ -1,26 +1,29 @@
 /**
  * @file 1021.c
- * @author your name (you@domain.com)
- * @brief Notas e moedas
+ * @author michaelthierry86@gmail.com
+ * @brief Notas e moedas: Esse programa lê do usuario um valor real que 
+ * corresponde ao saldo de sua conta. Em seguida ele calcula quais e quantas
+ * notas e moedas ele deve fornecer ao usuario e mostra na tela.
  * @version 0.1
  * @date 2022-02-27
  * 
  * @copyright Copyright (c) 2022
  * 
  */
+/*Incluindo a Biblioteca*/
 #include <stdio.h>
-
+/*Função principal*/
 int main(){
+    //Declaração de variaveis
     double saldo;
     int notas, notas_100, notas_50, notas_20, notas_10, notas_5, notas_2;
     int moedas, moedas_1, moedas_050, moedas_025, moedas_010, moedas_005, moedas_001;
-
+    //Lendo do usuario
     scanf("%lf", &saldo);
-
+    //Calculando valor em notas e moedas
     notas = saldo;
     moedas = (saldo - notas) * 100;
-    printf("moedas: %i\n", moedas);
-
+    //Calculando as notas
     notas_100 = notas / 100;
     notas %= 100;
     notas_50 = notas / 50;
@@ -33,7 +36,7 @@ int main(){
     notas %= 5;
     notas_2 = notas / 2;
     notas %= 2;
-    
+    //Calculando as moedas
     moedas_1 = notas;
     moedas_050 = moedas / 50;
     moedas %= 50;
@@ -44,7 +47,7 @@ int main(){
     moedas_005 = moedas / 5;
     moedas %= 5;
     moedas_001 = moedas / 1;
-       
+    //Mostrando as notas 
     printf("NOTAS:\n");
     printf("%i notas(s) de R$ 100.00\n", notas_100);
     printf("%d notas(s) de R$ 50.00\n", notas_50);
@@ -52,7 +55,7 @@ int main(){
     printf("%d notas(s) de R$ 10.00\n", notas_10);
     printf("%d notas(s) de R$ 5.00\n", notas_5);
     printf("%d notas(s) de R$ 2.00\n", notas_2);
-
+    //Mostrando as moedas
     printf("MOEDAS:\n");
     printf("%d moedas(s) de R$ 1.00\n", moedas_1);
     printf("%d moedas(s) de R$ 0.50\n", moedas_050);
