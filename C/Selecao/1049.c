@@ -1,70 +1,101 @@
-//CODE 1049//ANIMAL
+/**
+ * @file 1049.c
+ * @author michaelthierry86@gmail.com
+ * @brief Animal: Esse programa lê três palavras do usuario das quais 
+ * classificam um animal. Em seguinda ele mostra a qual animal leva a escolha das 
+ * palavras.
+ * @version 0.1
+ * @date 2022-07-24
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+/*Importando biblioteca*/
 #include <stdio.h>
 #include <string.h>
-int main()
-{
-    char a1[]="vertebrado",a2[]="invertebrado";
-    char b1[]="ave",b2[]="mamifero",b3[]="inseto",b4[]="anelideo";
-    char c1[]="carnivoro",c2[]="onivoro",c3[]="herbivoro",c4[]="hematofago";
-    char d1[]="aguia",d2[]="pomba",d3[]="homem",d4[]="vaca";
-    char d5[]="pulga",d6[]="lagarta",d7[]="sanguessuga",d8[]="minhoca";
-    char a[22],b[22],c[22];
-    scanf("%s",a);
-    if (0==strcmp(a,a1))
-    {
-       scanf("%s",b);
-       if(0==strcmp(b,b1))
-       {
-           scanf("%s",c);
-           if (0==strcmp(c,c1))
+/*Função principal*/
+int main(){
+    //Declarando variavel
+    char *primeira_palavra;
+    //Lendo a primeiro palavra do usuario
+    scanf("%s", primeira_palavra);
+    //Avaliando os casos
+    if(0 == strcmp(primeira_palavra, "vertebrado")){
+        //Declarando a variavel
+        char *segunda_palavra;
+        //Lendo a segunda palavra do usuario
+        scanf("%s", segunda_palavra);
+        //Avaliando o caso
+        if(0 == strcmp(segunda_palavra, "ave")){
+            //Declarando a variavel
+            char *terceira_palavra;
+            //Lendo a terceira palavra do usuario
+            scanf("%s", terceira_palavra);
+            //Avaliando o caso
+            if(0 == strcmp(terceira_palavra, "carnivoro")){
+                //Mostra o resultado
+                printf("aguia\n");
 
-               printf("%s\n",d1);
+            }else if(0 == strcmp(terceira_palavra, "onivoro")){
+                //Mostra o resultado
+                printf("pomba\n");
+            }
 
-           else if(0==strcmp(c,c2))
+        }else if(0 == strcmp(segunda_palavra, "mamifero")){
+            //Declarando varaivel
+            char *terceira_palavra;
+            //Lendo a terceira palavra do usuario
+            scanf("%s", terceira_palavra);
+            //Avaliando o caso
+            if (0 == strcmp(terceira_palavra, "onivoro")){
+                //Mostra o resultado
+                printf("homem\n");
 
-               printf("%s\n",d2);
+            }else if(0 == strcmp(terceira_palavra, "herbivoro")){
+                //Mosta o resultado
+                printf("vaca\n");
 
-       }
-       if(0==strcmp(b,b2))
-       {
-          scanf("%s",c);
-          if (0==strcmp(c,c2))
+            }
+        }
+    }else if(0 == strcmp(primeira_palavra, "invertebrado")){
+        //Declarando variavel
+        char *segunda_palavra;
+        //Lendo a segunda palavra do usuario
+        scanf("%s", segunda_palavra);
+        //Avaliando o caso
+        if(0 == strcmp(segunda_palavra, "inseto")){
+            //Declarando varaivel
+            char *terceira_palavra;
+            //Lendo do usuario
+            scanf("%s", terceira_palavra);
+            //Avaliando o caso
+            if(0 == strcmp(terceira_palavra, "hematofago")){
+                //Mostra resultado
+                printf("pulga\n");
 
-              printf("%s\n",d3);
+            }else if(0 == strcmp(terceira_palavra, "herbivoro")){
+                //Mostra o resultado
+                printf("lagarta\n");
 
-          else if(0==strcmp(c,c3))
+            }
+            
+        }else if(0 == strcmp(segunda_palavra, "anelideo")){
+            //Declarando varaivel
+            char *terceira_palavra;
+            //Lendo a terceira palavra do usuario
+            scanf("%s", terceira_palavra);
+            //Avaliando o resultado
+            if(0 == strcmp(terceira_palavra, "hematofago")){
+                //Mostra o resultado
+                printf("sanguessuga\n");
 
-              printf("%s\n",d4);
+            }else if(0 == strcmp(terceira_palavra, "onivoro")){
+                //Mostra o resultado
+                printf("minhoca\n");
 
-       }
+            }
+        }
     }
-    else if(0==strcmp(a,a2))
-    {
-       scanf("%s",b);
-       if(0==strcmp(b,b3))
-       {
-           scanf("%s",c);
-           if (0==strcmp(c,c4))
-
-               printf("%s\n",d5);
-
-           else if(0==strcmp(c,c3))
-
-               printf("%s\n",d6);
-
-       }
-       if(0==strcmp(b,b4))
-       {
-           scanf("%s",c);
-           if(0==strcmp(c,c4))
-
-               printf("%s\n",d7);
-
-           else if(0==strcmp(c,c2))
-
-               printf("%s\n",d8);
-
-       }
-    }
+    //fim do programa
     return 0;
 }
