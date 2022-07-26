@@ -34,7 +34,6 @@ int main(){
     //Mostrando o resultado
     printf("%i valores positivos\n", conta_positivo);
     printf("%.1lf\n", media);
-
     //fim do programa
     return 0;
 }
