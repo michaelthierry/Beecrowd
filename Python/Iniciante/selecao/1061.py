@@ -1,5 +1,5 @@
 """
-Problema 1061 - Tempo de um Evento
+# Problema 1061 - Tempo de um Evento
 """
 #Pegando o primeiro dia
 _, dia_1 = input().split(" ")

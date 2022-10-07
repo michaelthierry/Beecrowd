@@ -1,5 +1,5 @@
 """
-Problema: 1051 - Imposto de Renda
+# Problema: 1051 - Imposto de Renda
 """
 #lendo valores
 ganho = float(input())

@@ -1,5 +1,5 @@
 """
-Problema: 1052 - Mês
+# Problema: 1052 - Mês
 """
 #lendo os valor
 mes = int(input())

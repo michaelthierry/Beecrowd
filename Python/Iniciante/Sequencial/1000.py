@@ -1,3 +1,5 @@
-"""# Problema 1000 - Hello World!
 """
-print("Hello world!")
+# Problema: 1000 - Hello World! 
+"""
+#Mostra Olá mundo na tela
+print("Hello World!")

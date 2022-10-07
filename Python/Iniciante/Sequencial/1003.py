@@ -1,5 +1,5 @@
 """
-Problema 1003 - Soma simples
+# Problema 1003 - Soma simples
 """
 #declarando variaveis e recebendo do usuário
 valor_A = int(input())

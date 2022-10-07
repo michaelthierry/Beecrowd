@@ -1,5 +1,5 @@
 """
-Problema: 1009 - Salario com Bonus
+# Problema: 1009 - Salario com Bonus
 """
 #declarando variaveis e assumindo valores
 nome = str(input())

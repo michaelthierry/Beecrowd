@@ -1,5 +1,5 @@
 """
-Problema: 1007 - Diferença
+# Problema: 1007 - Diferença
 """
 #declarando variaveis e assumindo valores
 valor_A = int(input())

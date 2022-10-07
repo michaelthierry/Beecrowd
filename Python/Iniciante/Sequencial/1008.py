@@ -1,5 +1,5 @@
 """
-Problema: 1008 - Salario
+# Problema: 1008 - Salario
 """
 #declarando variaveis e assumindo valores
 numero_funcionario = int(input())

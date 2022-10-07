@@ -1,5 +1,5 @@
 """
-Problema: 1041 - Coordenadas de um ponto
+# Problema: 1041 - Coordenadas de um ponto
 """
 #lendo o ponto
 x, y = input().split(" ")

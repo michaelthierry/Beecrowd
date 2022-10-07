@@ -1,5 +1,5 @@
 """
-Problema: 1044 - Multiplos
+# Problema: 1044 - Multiplos
 """
 #Lendo valores
 valor_A, valor_B = input().split(" ")

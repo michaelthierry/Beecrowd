@@ -1,5 +1,5 @@
 """
-Programa: 1042 - Sort Simples
+# Programa: 1042 - Sort Simples
 """
 #lendo os valores
 valor_A, valor_B, valor_C = input().split(" ")

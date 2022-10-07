@@ -1,5 +1,5 @@
 """
-Problema: 1016 -  Distancia
+# Problema: 1016 - Distancia
 """
 #pegando a distancia
 distancia = int(input())

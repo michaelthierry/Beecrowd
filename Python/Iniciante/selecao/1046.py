@@ -1,5 +1,5 @@
 """
-Problema: 1046 - Tempo de Jogo
+# Problema: 1046 - Tempo de Jogo
 """
 #lendo os valores do usuario
 horas_inicio, horas_fim = input().split(" ")

@@ -1,5 +1,5 @@
 """
-Problema: 1019 - Conversão de Tempo
+# Problema: 1019 - Conversão de Tempo
 """
 #recebendo os dados
 segundos_totais = int(input())

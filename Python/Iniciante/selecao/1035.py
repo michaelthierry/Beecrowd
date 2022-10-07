@@ -1,5 +1,5 @@
 """
-Problema: teste de Seleção 1
+# Problema: teste de Seleção 1
 """
 #coletando os dados
 valor_A, valor_B, valor_C, valor_D = input().split(" ")

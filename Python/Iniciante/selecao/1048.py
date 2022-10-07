@@ -1,5 +1,5 @@
 """
-Problema: 1048 - Aumento de salario
+# Problema: 1048 - Aumento de salario
 """
 #lendo os valores
 salario = float(input())

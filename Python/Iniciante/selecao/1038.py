@@ -1,5 +1,5 @@
 """
-Problema: 1038 - Lanche
+# Problema: 1038 - Lanche 
 """
 #obtendo os dados
 codigo, quantidade = input().split(" ")

@@ -1,5 +1,5 @@
 """
-Problema: 1017 - Gasto de Comnustivel
+# Problema: 1017 - Gasto de Comnustivel
 """
 #pegando os dados
 tempo = int(input())

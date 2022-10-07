@@ -1,5 +1,5 @@
 """
-Problema: 1010 - Calculo simples
+# Problema: 1010 - Calculo simples
 """
 #dados da peca 1
 codigo_peca_1, numero_peca_1, valor_peca_1 = input().split(" ")

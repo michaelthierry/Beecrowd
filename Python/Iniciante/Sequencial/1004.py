@@ -1,5 +1,6 @@
 """
-Problema: 1004 - Produto simples
+# Problema: 1004 - Produto simples
+# Esse programa pega dois valores inteiros, faz o produto entre eles e mostra o resultado.
 """
 #declarando variveis e assumindo valores
 valor_A = int(input())

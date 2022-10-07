@@ -1,5 +1,5 @@
 """
-Problema: 1012 - Área
+# Problema: 1012 - Área
 """
 #pegando os valores
 valor_A, valor_B, valor_C = input().split(" ")

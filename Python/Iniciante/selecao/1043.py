@@ -1,5 +1,5 @@
 """
-Problema: 1043 - Triangulo
+# Problema: 1043 - Triangulo
 """
 #lendo os valores
 lado_A, lado_B, lado_C = input().split(" ")

@@ -1,5 +1,5 @@
 """
-Prolema: 1050 - DDD
+# Prolema: 1050 - DDD
 """
 #lendo o DDD
 DDD = int(input())

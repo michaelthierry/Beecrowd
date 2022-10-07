@@ -1,5 +1,5 @@
 """
-Problema: 1006 - Media 2
+# Problema: 1006 - Media 2
 """
 #declarando variaveis e assumindo valores
 valor_A = float(input())

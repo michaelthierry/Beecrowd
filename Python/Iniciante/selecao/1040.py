@@ -1,5 +1,5 @@
 """
-Problema: 1040 - Media 3
+# Problema: 1040 - Media 3
 """
 #Otendo os dados
 nota_1, nota_2, nota_3, nota_4 = input().split(" ")

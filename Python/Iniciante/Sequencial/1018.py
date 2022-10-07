@@ -1,5 +1,5 @@
 """
-Problema 1018 - Cédulas
+# Problema 1018 - Cédulas 
 """
 #recebendo o valor
 saldo = int(input())

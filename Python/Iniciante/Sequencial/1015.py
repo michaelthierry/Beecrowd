@@ -1,5 +1,5 @@
 """
-Problema: 1015 - Distancia entre dois pontos
+# Problema: 1015 - Distancia entre dois pontos
 """
 #recebendo as entradas
 x1, y1 = input().split(" ")

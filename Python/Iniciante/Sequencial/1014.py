@@ -1,5 +1,5 @@
 """
-Problema: 1014 - Consumo 
+# Problema: 1014 - Consumo
 """
 #declarando vairiaveis
 distancia = float(input())

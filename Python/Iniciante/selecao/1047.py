@@ -1,5 +1,5 @@
 """
-Problema: 1047 - Tempo de jogo com minutos
+# Problema: 1047 - Tempo de jogo com minutos
 """
 #lendo os valores
 hora_inicio, minuto_inicio, hora_fim, minuto_fim = input().split(" ")

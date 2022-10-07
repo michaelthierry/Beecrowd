@@ -1,5 +1,5 @@
 """
-Problema: 1020 - Idade em Dias
+# Problema: 1020 - Idade em Dias
 """
 #Ontendo os dados
 dias_totais = int(input())

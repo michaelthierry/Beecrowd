@@ -1,5 +1,5 @@
 """
-Problema: 1049 - Animal
+# Problema: 1049 - Animal
 """
 #lendo as palavras
 palavra_1 = str(input()).lower()
