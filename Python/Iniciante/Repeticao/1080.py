@@ -4,7 +4,7 @@
 # Lendo 100 valores
 maior = 0
 posicao = 0
-for index  in range(1, 10):
+for index  in range(1, 101):
     valor = int(input())
     if valor > maior:
         maior = valor
